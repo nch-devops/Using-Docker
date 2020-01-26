@@ -23,7 +23,7 @@ def mainpage():
               Hello <input type="text" name="name" value="{0}">
               <input type="submit" value="submit">
               </form>
-              <p>5. Ты похож на:
+              <p>6. Ты похож на:
               <img src="/monster/{1}"/>
               '''.format(name, name_hash)
     footer = '</body></html>'
